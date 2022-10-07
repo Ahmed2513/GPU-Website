@@ -1,0 +1,56 @@
+
+.navigator{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(66 15 15);
+    margin: -21px -6px;
+    position: fixed;
+    box-shadow: 1px 4px 9px 2px #b93939;
+    transform: translateZ(10px);
+}
+.navigator div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.navigator ul{
+    position: absolute;
+    right: 5px;
+}
+
+.navigator ul li{
+    display: inline-block;
+}
+
+.navigator ul li a{
+    color: white;
+    padding: 5px;
+}
+
+
+#contact{
+    align-items: center;
+    text-align: center;
+    background-color: #57c9ff;
+    box-shadow: 11px 3px 20px 5px #092ddc;
+    border-radius: 13px;
+    padding: 33px;
+}
+.bgimage{
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 30px;
+
+    
+}
+
+.body{
+    background-color: black;
+}
